@@ -1,0 +1,16 @@
+header{
+    height: 15%;
+}
+
+main{
+    height: 75%;
+    overflow: scroll;
+
+    background-color: #1c1c1c;
+}
+
+footer{
+    height: 10%;
+
+    background-color: #2a2a2a;
+}

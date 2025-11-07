@@ -1,0 +1,24 @@
+<div class="lista">
+    <h2>Lista de Rutinas</h2>
+
+    <div class="contenedorRutinas">
+        @for (rutina of rutinas(); track $index) {
+            <div class="contenedorRutina">
+                <div class="cabecera">
+                    <p> {{rutina.customer}} </p>
+                    <p class="contenedor"> {{rutina.skillLevel}} </p>
+                </div>
+
+                <div class="contenido">
+                    <p>Tipo: {{rutina.type}} </p>
+                </div>
+
+                <div class="footer">
+                    <a routerLink="/app-formulario"  class="contenedor" (click)="redireccionarDetalles(rutina.id!)" >Ver Mas -></a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
