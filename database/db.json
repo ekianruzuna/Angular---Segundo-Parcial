@@ -1,56 +1,74 @@
 {
-"routines": [
-{
-"id": "ab34",
-"customer": "Laura Giménez",
-"type": "Cardio",
-"duration": 45,
-"skillLevel": "Intermedio",
-"isGroupSession": false
-},
-{
-"id": "z7h4",
-"customer": "Marcos Díaz",
-"type": "Fuerza",
-"duration": 90,
-"skillLevel": "Avanzado",
-"isGroupSession": true,
-"notes": "Foco en tren superior. Implementar drop sets en press banca."
-},
-{
-"id": "jk8g",
-"customer": "Sofía Ramírez",
-"type": "Fuerza",
-"duration": 30,
-"skillLevel": "Principiante",
-"isGroupSession": false,
-"notes": "Mantener ritmo constante, pausas cortas."
-},
-{
-"id": "as4h",
-"customer": "Diego Fernández",
-"type": "Fuerza",
-"duration": 60,
-"skillLevel": "Intermedio",
-"isGroupSession": false,
-"notes": "Enfocarse en piernas y glúteos."
-},
-{
-"id": "jm9u",
-"customer": "Valentina López",
-"type": "Flexibilidad",
-"duration": 50,
-"isGroupSession": true,
-"skillLevel": "Principiante"
-},
-{
-"id": "cf45",
-"customer": "Tomás Herrera",
-"type": "Cardio",
-"duration": 40,
-"skillLevel": "Avanzado",
-"isGroupSession": false,
-"notes": "Incluir sprints de 1 minuto cada 10 minutos."
-}
-]
+  "routines": [
+    {
+      "id": "ab34",
+      "customer": "Laura Giménez",
+      "type": "Cardio",
+      "duration": 45,
+      "skillLevel": "Intermedio",
+      "isGroupSession": false
+    },
+    {
+      "id": "z7h4",
+      "customer": "Marcos Díaz",
+      "type": "Fuerza",
+      "duration": 90,
+      "skillLevel": "Avanzado",
+      "isGroupSession": true,
+      "notes": "Foco en tren superior. Implementar drop sets en press banca."
+    },
+    {
+      "id": "jk8g",
+      "customer": "Sofía Ramírez",
+      "type": "Fuerza",
+      "duration": 30,
+      "skillLevel": "Principiante",
+      "isGroupSession": false,
+      "notes": "Mantener ritmo constante, pausas cortas."
+    },
+    {
+      "id": "as4h",
+      "customer": "Diego Fernández",
+      "type": "Fuerza",
+      "duration": 60,
+      "skillLevel": "Intermedio",
+      "isGroupSession": false,
+      "notes": "Enfocarse en piernas y glúteos."
+    },
+    {
+      "id": "jm9u",
+      "customer": "Valentina López",
+      "type": "Flexibilidad",
+      "duration": 50,
+      "isGroupSession": true,
+      "skillLevel": "Principiante"
+    },
+    {
+      "customer": "Nerlia",
+      "type": "Intermedio",
+      "duration": 52,
+      "skillLevel": "",
+      "isGroupSession": true,
+      "notes": "dadadadad",
+      "id": "cf45"
+    },
+    {
+      "id": "6a44",
+      "customer": "daw",
+      "type": "Principiante",
+      "duration": 321,
+      "skillLevel": "dwa",
+      "isGroupSession": true,
+      "notes": "d1231"
+    },
+    {
+      "customer": "Ekian URuzuna",
+      "type": "Principiante",
+      "duration": 231,
+      "skillLevel": "321",
+      "isGroupSession": true,
+      "notes": "dwad",
+      "id": "eeb9"
+    }
+  ]
 }

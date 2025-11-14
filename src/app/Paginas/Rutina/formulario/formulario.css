@@ -1,0 +1,90 @@
+h2{
+    color: var(--accent-color);
+    text-decoration: solid;
+}
+
+.contenedorFormulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+    width: 300px;
+
+    margin: 30px  auto;
+
+    background-color: var(--background-card-color);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+
+    color: var(--font-color);
+}
+
+.input{
+    padding: 3px;
+    width: 100%;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+    border: 0px;
+}
+
+.contBotones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    margin-top: 20px;
+}
+
+button{
+    background-color: var(--background-color);
+    color: var(--font-color);
+    outline: 2px solid white;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    outline: 2px solid var(--background-color);
+}
+
+button:disabled{
+    color: grey;
+    outline: 2px solid grey;
+    cursor: not-allowed;
+}
+
+button:disabled:hover{
+    background-color: var(--background-color);
+    color: grey;
+    outline: 2px solid grey;
+}
+
+.mensajeError{
+    color: rgb(255, 0, 0);
+}
+
+
+

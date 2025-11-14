@@ -18,4 +18,8 @@ export class Store {
       next: (r) => this.rutinas.update(list => [...list, ...r])
     })
   }
+
+  addRutina(){
+    
+  }
 }

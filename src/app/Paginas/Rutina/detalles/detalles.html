@@ -1,21 +1,23 @@
-<div>
-    <h2>Rutina de Fuerza</h2>
-
-    <div class="contenedor">
-        <!-- <h2> {{}} </h2>
-        
-        @if () {
-            <p>{{}}</p>
-        }
-
-        <p>Tipo de entrenamiento: {{}}</p>
+<div class="contenedor">
+    <div class="detalle">
+        <h2>Rutina de Fuerza</h2>
     
-        <p>Duracion: {{}} </p>
-
-        <p>Nivel de entrenamiento: {{}} </p>
-
-        <h2> {{}} </h2>
-
-        <p> {{}} </p> -->
+        <h2> {{rutinaActualizarDatos()?.customer}} </h2>
+    
+        <p>Tipo de entrenamiento: {{rutinaActualizarDatos()?.type}}</p>
+    
+        <p>Duracion: {{rutinaActualizarDatos()?.duration}} </p>
+    
+        <p>Nivel de entrenamiento: {{rutinaActualizarDatos()?.skillLevel}} </p>
+    
+        <h2> {{rutinaActualizarDatos()?.isGroupSession}} </h2>
+    
+        <p> {{rutinaActualizarDatos()?.notes}} </p>
+    
     </div>
+
+    <app-formulario [editando]="true" [rutina]="rutinaActualizarDatos()" (rutinaSalida)="actualizarDatosRutina($event)"></app-formulario> 
+                                                                                            <!-- con el $event le estamos pasando el valor del output
+                                                                                                 al metodo que se ejecuta cuando se emita el output  
+                                                                                            -->
 </div>
